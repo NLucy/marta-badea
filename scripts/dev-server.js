@@ -8,8 +8,8 @@ await loadLocalEnv();
 const { default: askHandler } = await import("../api/ask.js");
 const { default: profileHandler } = await import("../api/profile.js");
 
-const hostname = process.env.HOST || "127.0.0.1";
-const port = Number(process.env.PORT || 3000);
+const hostname = process.env["HOST"] || "127.0.0.1";
+const port = Number(process.env["PORT"] || 3000);
 const publicRoot = join(process.cwd(), "public");
 
 const mimeTypes = {
