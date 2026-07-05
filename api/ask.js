@@ -1,7 +1,7 @@
-import { config } from "./llm/config.js";
-import { createResponse, streamResponse } from "./llm/openai.js";
-import { buildInterviewMessages } from "./llm/messages.js";
-import { runTool } from "./llm/tools.js";
+import { config } from "../lib/llm/config.js";
+import { createResponse, streamResponse } from "../lib/llm/openai.js";
+import { buildInterviewMessages } from "../lib/llm/messages.js";
+import { runTool } from "../lib/llm/tools.js";
 
 const json = (response, status, body) => response.status(status).json(body);
 const wantsStream = (request) => String(request.headers?.accept || "").includes("text/event-stream") || Boolean(request.body?.stream);

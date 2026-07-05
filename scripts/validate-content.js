@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { memories as bundledMemories } from "../api/llm/memory-data.js";
+import { memories as bundledMemories } from "../lib/llm/memory-data.js";
 
 const files = [
   "content/profile.json",
@@ -25,7 +25,7 @@ const sourceIds = sourceMemories.map((memory) => memory.id).join(",");
 const bundledIds = bundledMemories.map((memory) => memory.id).join(",");
 
 if (sourceIds !== bundledIds) {
-  throw new Error("api/llm/memory-data.js is out of sync with content/memories.json");
+  throw new Error("lib/llm/memory-data.js is out of sync with content/memories.json");
 }
 
-console.log("valid api/llm/memory-data.js");
+console.log("valid lib/llm/memory-data.js");
