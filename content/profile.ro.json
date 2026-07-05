@@ -1,0 +1,308 @@
+{
+  "name": "Marta Ileana Badea",
+  "role": "Senior Telecom / IT Engineer",
+  "location": "Düsseldorf, Germania",
+  "phone": "",
+  "email": "marta.ileana.badea@gmail.com",
+  "links": [],
+  "headline": "Inginer telecom senior pentru planificare de rețea și calitatea livrării la scară de operator.",
+  "summary": "Am peste 15 ani de experiență în rețele wireless și transport pentru medii de operatori majori, inclusiv Telefónica și Vodafone Germany. Activitatea mea acoperă planificare rețele fixe, mobile backhaul, coordonare microwave, operațiuni RAN, integrare, troubleshooting, validare, semnalizare, protocoale și livrare end-to-end a serviciilor. Sunt cea mai puternică acolo unde calitatea planificării, coordonarea vendorilor, aprobarea tehnică și pregătirea rețelei live contează simultan.",
+  "portrait": "/images/marta-badea.png",
+  "strengths": [
+    "Revizuire, corectare și aprobare de work packs pentru operatori pe scope-uri WDM, router, carrier, swap și delete",
+    "Planificare rețele fixe pentru deployment, swap, upgrade, capacity change și decommissioning",
+    "Coordonare microwave cu livrare LOS, ajustare planuri EP/AP, link design, acceptance și verificări RIFU lifecycle",
+    "Integrare RAN, configurare, rehoming, suport rollout și monitorizare degradare pentru sisteme Huawei 2G, 3G și 4G",
+    "Gestionare escalări, quality assurance și rol de point of contact între operatori, vendori și parteneri externi",
+    "Livrare tehnică multilingvă în engleză, franceză, germană și română în medii multinaționale și multi-site"
+  ],
+  "skills": [
+    {
+      "group": "Rețele fixe și transport",
+      "items": [
+        "High Level Design",
+        "Work pack review",
+        "Rack design",
+        "Hardware acceptance",
+        "WDM",
+        "Router planning",
+        "Trunk and parameter checks",
+        "Decommissioning"
+      ]
+    },
+    {
+      "group": "Backhaul și microwave",
+      "items": [
+        "Link design",
+        "Link budgets",
+        "LOS coordination",
+        "Frequency applications",
+        "EP/AP plan review",
+        "RIFU lifecycle",
+        "Network documentation",
+        "Acceptance checks"
+      ]
+    },
+    {
+      "group": "RAN și rețele mobile",
+      "items": [
+        "2G",
+        "3G",
+        "4G",
+        "LTE",
+        "RAN operations",
+        "Integration",
+        "Configuration",
+        "Rehoming",
+        "Rollout support",
+        "Software upgrades"
+      ]
+    },
+    {
+      "group": "Instrumente",
+      "items": [
+        "Netsite",
+        "Xakta",
+        "APT",
+        "MapInfo",
+        "NetExplorer",
+        "IQLINK",
+        "Cramer Mobile",
+        "TTWOS",
+        "U2000",
+        "NetAct",
+        "Visio"
+      ]
+    },
+    {
+      "group": "Echipamente",
+      "items": [
+        "Huawei ATN",
+        "Huawei NE40",
+        "Huawei CX600",
+        "Cisco NCS560",
+        "Cisco NCS540",
+        "ZTE M721",
+        "ADVA FSP3000",
+        "Huawei RTN",
+        "SIAE",
+        "Ericsson AMM"
+      ]
+    },
+    {
+      "group": "QA, software și protocoale",
+      "items": [
+        "SMPP",
+        "UCP",
+        "MAP",
+        "Diameter",
+        "Java",
+        "Cucumber",
+        "GitHub",
+        "Jenkins",
+        "MATLAB",
+        "UNIX/Linux",
+        "MySQL",
+        "Excel"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Alten for Telefónica Germany",
+      "title": "Fixed Network Planning Coordinator",
+      "location": "Remote / Germany",
+      "period": "Jul 2024 - Present",
+      "bullets": [
+        "Coordinates the technical interface between Telefónica and Alten teams for the NSX BHP Germany project.",
+        "Reviews, corrects and approves work packs for Telefónica South and West regions across WDM, router, carrier new, swap and delete scopes.",
+        "Performs infrastructure checks, rack design, hardware list acceptance and proactive quality checks before implementation.",
+        "Identifies and resolves technical planning issues with engineering partners to protect delivery quality."
+      ]
+    },
+    {
+      "company": "Telefónica Germany",
+      "title": "Fixed Network Planning Engineer",
+      "location": "Remote / Germany",
+      "period": "Mar 2021 - Jun 2024",
+      "bullets": [
+        "Created and updated network High Level Design plans and documentation according to customer demands.",
+        "Supported the Backhaul Planning Team Nord East, including DTAG Delta LL decommissioning and router performance analysis.",
+        "Checked trunks and planning parameters in APT and Xakta for network change readiness.",
+        "Created Netsite projects for new deployments, swaps, upgrades and capacity changes across multiple network elements."
+      ]
+    },
+    {
+      "company": "Huawei for Vodafone Germany",
+      "title": "Microwave Coordinator Engineer",
+      "location": "Düsseldorf, Germany",
+      "period": "Dec 2018 - Feb 2021",
+      "bullets": [
+        "Acted as point of contact between Vodafone, DNOC, Säntis and external partners.",
+        "Managed escalations and quality assurance for delivered services.",
+        "Coordinated LOS activities with focus on delivering target links.",
+        "Evaluated and adjusted EP and AP plans, designed links in IQLINK and updated Cramer Mobile documentation.",
+        "Checked microwave link acceptance and RIFU element lifecycle, with TTWOS reporting for Säntis activities."
+      ]
+    },
+    {
+      "company": "HPE",
+      "title": "QA Engineer",
+      "location": "Bucharest, Romania",
+      "period": "Jun 2018 - Nov 2018",
+      "bullets": [
+        "Performed end-to-end regression testing for DTAG SMS-C platforms.",
+        "Validated SMPP, UCP, MAP and Diameter protocol functionality.",
+        "Participated in validation and verification for new software releases.",
+        "Worked with automated test environments using Cucumber, Java, GitHub and Jenkins."
+      ]
+    },
+    {
+      "company": "Connect 44 for Telefónica Germany",
+      "title": "Microwave Network Planning Engineer",
+      "location": "Bucharest, Romania",
+      "period": "Nov 2016 - May 2018",
+      "bullets": [
+        "Designed microwave links for new, swap and upgrade projects according to Telefónica specifications.",
+        "Prepared link budgets and frequency applications for the German regulatory authority BNetzA.",
+        "Handled rack design and link rerouting for merged O2 and E-Plus networks."
+      ]
+    },
+    {
+      "company": "Vodafone Germany",
+      "title": "RAN Huawei Engineer",
+      "location": "Bucharest, Romania",
+      "period": "Oct 2013 - Nov 2016",
+      "bullets": [
+        "Troubleshot incident tickets and monitored network degradation for Huawei 2G, 3G and 4G systems.",
+        "Performed integration, configuration and rehoming activities for 2G, 3G and 4G networks.",
+        "Supported rollout and commissioning projects for new radio sites.",
+        "Collaborated with planning, field service and operations teams and supported BSC, RNC, NodeB and eNodeB software upgrades."
+      ]
+    },
+    {
+      "company": "Ericsson / Supélec",
+      "title": "FO RAN Engineer and Telecom Research Trainee",
+      "location": "Bucharest, Romania / France",
+      "period": "Aug 2009 - Aug 2013",
+      "bullets": [
+        "Monitored alarms and managed incidents for Huawei 2G, 3G, Ericsson TN and Andrew repeater networks for Mobistar Belgium.",
+        "Studied device-to-device communication with distributed caching in LTE-Advanced at Supélec.",
+        "Created and simulated MATLAB scenarios and analyzed wireless system performance using stochastic geometry."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Telefónica Germany Fixed Network Planning",
+      "type": "Livrare transport și backhaul",
+      "description": "Planning, approval and coordination work across German fixed network programs involving WDM, router, carrier, swap, delete, upgrade and capacity-change scopes.",
+      "tags": [
+        "Telefónica",
+        "Backhaul",
+        "WDM",
+        "Routers",
+        "Netsite",
+        "Xakta",
+        "APT"
+      ],
+      "period": "2021 - Present",
+      "bullets": [
+        "Reviews and approves implementation-facing planning work across operator regions.",
+        "Coordinates between engineering partners, customer demands and field-ready network design.",
+        "Works across Huawei, Cisco, ZTE and ADVA equipment families."
+      ]
+    },
+    {
+      "name": "Vodafone Säntis Microwave Program",
+      "type": "Coordonare microwave și QA",
+      "description": "Microwave delivery coordination between Vodafone, DNOC, Säntis and external partners with emphasis on escalation handling, quality assurance, LOS delivery and link acceptance.",
+      "tags": [
+        "Vodafone",
+        "Huawei",
+        "Microwave",
+        "LOS",
+        "IQLINK",
+        "Cramer Mobile",
+        "TTWOS"
+      ],
+      "period": "2018 - 2021",
+      "bullets": [
+        "Coordinated LOS delivery and plan adjustment for target microwave links.",
+        "Managed acceptance checks and lifecycle tracking for microwave links and RIFU elements.",
+        "Maintained network documentation and reporting for delivery activities."
+      ]
+    },
+    {
+      "name": "DTAG E2E SMSC Validation",
+      "type": "QA telecom și validare protocoale",
+      "description": "End-to-end testing and release validation for SMS-C platforms, including protocol-level validation and automated test environments.",
+      "tags": [
+        "HPE",
+        "DTAG",
+        "SMPP",
+        "UCP",
+        "MAP",
+        "Diameter",
+        "Cucumber",
+        "Jenkins"
+      ],
+      "period": "2018",
+      "bullets": [
+        "Validated telecom protocol functionality across regression test cycles.",
+        "Collaborated with cross-functional teams on defect tracking and resolution.",
+        "Worked with Java, Cucumber, GitHub and Jenkins in automated test environments."
+      ]
+    },
+    {
+      "name": "LTE-Advanced D2D Research",
+      "type": "Cercetare sisteme wireless",
+      "description": "Supélec research project on device-to-device communication with distributed caching in LTE-Advanced.",
+      "tags": [
+        "Supélec",
+        "LTE-Advanced",
+        "MATLAB",
+        "Wireless systems",
+        "Stochastic geometry"
+      ],
+      "period": "2013",
+      "bullets": [
+        "Created and simulated wireless communication scenarios in MATLAB.",
+        "Analyzed performance and optimized results using stochastic geometry.",
+        "Completed the work as part of an advanced wireless systems double master program."
+      ]
+    }
+  ],
+  "certifications": [
+    "Google Generative AI Leader Course",
+    "O-RAN and 5G Udemy Course",
+    "Scrum Master Course",
+    "Azure Cloud Fundamentals Certification",
+    "ITIL Foundation and ITIL Intermediate",
+    "Huawei and Nokia vendor training",
+    "CCNA 1-4",
+    "SQL / MySQL"
+  ],
+  "education": [
+    {
+      "school": "Supélec, Gif-sur-Yvette, France",
+      "details": "Double Master diploma in Advanced Wireless Systems, scholarship student, 2012 - 2013"
+    },
+    {
+      "school": "Politehnica University Bucharest",
+      "details": "Double Master diploma in Electronics, Telecommunications and Information Technology, major in Mobile Communications, 2011 - 2012"
+    },
+    {
+      "school": "Politehnica University Bucharest",
+      "details": "Bachelor diploma in Electronics, Telecommunications and Information Technology, major in Telecom, 2007 - 2011"
+    }
+  ],
+  "interests": [
+    "Technology innovation",
+    "Continuous learning",
+    "Music",
+    "Reading",
+    "Travel",
+    "Movies"
+  ]
+}

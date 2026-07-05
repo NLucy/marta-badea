@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Marta Ileana Badea - Senior Telecom and Fixed Network Planning Engineer">
+    <title>Marta Ileana Badea</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Marta Ileana Badea</a>
+      <nav aria-label="Main navigation">
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#projects" data-i18n="navPrograms">Programs</a>
+        <a href="#interview" data-i18n="navTalk">Talk</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <label class="language-switch" for="language-select">
+        <span data-i18n="languageLabel">Language</span>
+        <select id="language-select" name="language">
+          <option value="en">EN</option>
+          <option value="de">DE</option>
+          <option value="fr">FR</option>
+          <option value="ro">RO</option>
+        </select>
+      </label>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-role">Telecom / IT Engineer</p>
+          <h1 id="hero-title">Senior telecom network delivery.</h1>
+          <p class="hero-summary" id="hero-summary"></p>
+          <div class="hero-actions" id="hero-links"></div>
+        </div>
+        <figure class="portrait-wrap">
+          <img id="portrait" src="/images/marta-badea.png" alt="Marta Ileana Badea">
+        </figure>
+      </section>
+
+      <section class="section section-tight" aria-labelledby="strengths-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="focusKicker">Focus</p>
+          <h2 id="strengths-title" data-i18n="strengthsTitle">Where I create value</h2>
+        </div>
+        <div class="strength-grid" id="strengths"></div>
+      </section>
+
+      <section class="section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="skillsKicker">Technical skills</p>
+          <h2 id="skills-title" data-i18n="skillsTitle">The working toolkit</h2>
+        </div>
+        <div class="skill-grid" id="skills"></div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="experienceKicker">Experience</p>
+          <h2 id="work-title" data-i18n="experienceTitle">Recent work</h2>
+        </div>
+        <div class="timeline" id="experience"></div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="programsKicker">Selected programs</p>
+          <h2 id="projects-title" data-i18n="programsTitle">Network programs and delivery proof</h2>
+        </div>
+        <div class="project-grid" id="project-list"></div>
+      </section>
+
+      <section class="interview" id="interview" aria-labelledby="interview-title">
+        <div>
+          <p class="eyebrow" data-i18n="askKicker">Ask Marta</p>
+          <h2 id="interview-title" data-i18n="askTitle">Talk with me about the work.</h2>
+          <p data-i18n="askBody">Ask about fixed network planning, mobile backhaul, microwave, RAN operations, tools, vendors, or target roles.</p>
+        </div>
+        <form id="ask-form" class="ask-form">
+          <label for="question" data-i18n="questionLabel">Question</label>
+          <div class="ask-row">
+            <textarea id="question" name="question" rows="3" placeholder="Ask me about Telefónica planning, Vodafone microwave coordination, RAN integration, languages, tools, or senior role fit..."></textarea>
+            <button type="submit" data-i18n="sendButton">Send</button>
+          </div>
+          <output id="answer" class="answer" aria-live="polite"></output>
+        </form>
+      </section>
+
+      <section class="section details" aria-label="Credentials and education">
+        <div>
+          <p class="eyebrow" data-i18n="credentialsKicker">Credentials</p>
+          <ul id="certifications"></ul>
+        </div>
+        <div>
+          <p class="eyebrow" data-i18n="educationKicker">Education</p>
+          <ul id="education"></ul>
+        </div>
+        <div>
+          <p class="eyebrow" data-i18n="interestsKicker">Interests</p>
+          <ul id="interests"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <span data-i18n="footerText">Available for senior telecom engineering, planning and delivery conversations.</span>
+      <div class="footer-links">
+        <a id="phone-link" href="#" hidden></a>
+        <a id="email-link" href="mailto:marta.ileana.badea@gmail.com">marta.ileana.badea@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

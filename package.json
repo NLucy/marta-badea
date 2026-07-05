@@ -1,0 +1,17 @@
+{
+  "name": "marta-badea-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marta Ileana Badea portfolio site with an interview assistant",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/validate-content.js",
+    "start": "node scripts/dev-server.js"
+  },
+  "author": "Marta Ileana Badea",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "openai": "^6.36.0"
+  }
+}
